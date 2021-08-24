@@ -1,0 +1,493 @@
+<resources>
+    <!-- Configuraciones buscar conexion por terminal CMD >ipconfig el valos IPv4
+     https://www.absoftwaregroup.com/platform/ucentral-API/
+    <string name="url">http://192.168.1.56/cementera-API/</string>
+    <string name="url">http://172.30.3.220/cementera-API/</string>
+    <string name="url">https://www.absoftwaregroup.com/platform/cementera-API/</string>
+    -->
+    <string name="url">https://www.absoftwaregroup.com/platform/cementera-API/</string>
+    <!-- Titulos -->
+    <string name="app_name">QualiApps</string>
+    <string name="inicio_sesion">Inicio de Sesión</string>
+    <string name="pagina_registro">Crear Cuenta</string>
+    <string name="pagina_recover">Olvide mi Clave</string>
+    <string name="recover_pass">Recuperar Clave</string>
+    <string name="QualiApps">QualiApps</string>
+    <string name="reportes">Reportes</string>
+    <!-- Labels -->
+    <string name="bienvenido">Bienvenido</string>
+    <string name="nombre">Nombre</string>
+    <string name="correo">Correo</string>
+    <string name="usuario">Usuario</string>
+    <string name="password">Password</string>
+    <string name="password_ingresar">Nuevo Password</string>
+    <string name="password_confirm">Confirmar Password</string>
+    <string name="mensaje">Herramienta para la evaluación cualitativa a material particulado en una empresa cementera</string>
+    <string name="validar_usuario">Validar Usuario</string>
+    <string name="regresar"> &lt; Regresar</string>
+    <string name="salir">Salir</string>
+    <!-- Botones -->
+    <string name="login">Login</string>
+    <string name="registrarme">Registrarme</string>
+    <string name="cambiar_pass">Cambiar Clave</string>
+    <string name="logo">Logo</string>
+    <string name="reporte">REPORTE PLANTA Y PATIOS DE LOTES</string>
+    <string name="Graficas">Gráficas</string>
+    <!-- labels Cabecera Form -->
+    <string name="enviar_reporte">Enviar Reporte</string>
+    <string name="nombre_del_sitio">Nombre del sitio:</string>
+    <string name="instalaciones">Instalaciones:</string>
+    <string name="fecha_evaluacion">Fecha Evaluación:</string>
+    <string name="conducted_by">Realizada por:</string>
+    <!-- labels Form -->
+    <string name="area">ÁREA</string>
+    <string name="area_patio">ÁREA: Planta y Patios de Lotes</string>
+    <string-array name="areas_items">
+        <item>PLANTA Y PATIOS DE LOTES</item>
+        <item>TALLER MANTENIMIENTO</item>
+        <item>LABORATORIO DE CONTROL CALIDAD</item>
+    </string-array>
+
+    <string name="ubicacion">1. Ubicación/Fuente</string>
+    <string name="ubicacion_seleccionar">Seleccionar Ubicación/Fuente</string>
+    <string-array name="dropdown_items_Q1_patio">
+        <item>Acopios de agregados y alimentación de plantas</item>
+        <item>Tolvas de agregados, básculas, alimentación de la Mezcla para agregados</item>
+        <item>Descarga de Camión Cisterna (Pipas, graneleras) y Silos.</item>
+        <item>Básculas de Cemento y alimentación a Mezcladora de Cemento</item>
+        <item>Planta mezcladora </item>
+        <item>Zona de cargue</item>
+        <item>Equipo móvil</item>
+        <item>Patios de tránsito y vías internas</item>
+        <item>Otro</item>
+    </string-array>
+    <string-array name="dropdown_items_Q1_taller">
+        <item>Proceso con Maquinaria</item>
+        <item>Equipo móvil</item>
+        <item>Herramientas</item>
+        <item>Otro</item>
+    </string-array>
+    <string-array name="dropdown_items_Q1_laboratorio">
+        <item>Molinos, trituradoras.</item>
+        <item>Tamices, pantallas, (shakers)</item>
+        <item>Divisores</item>
+        <item>Balanzas</item>
+        <item>Sierra de hormigón</item>
+        <item>Falla de Cilindros</item>
+        <item>Cuarto de Curado</item>
+        <item>Otro</item>
+    </string-array>
+    <string name="form_Q2">2. ¿Se realizarón dosímetrias de material particúlado?</string>
+    <string name="form_SI">SI</string>
+    <string name="form_NO">NO</string>
+    <string name="form_NA">N/A</string>
+    <string name="form_Q3">3. Seleccione el nivel de exposición del trabajador según el informe de la dosímetria</string>
+    <string-array name="spinner_items">
+        <item>Seleccionar</item>
+        <item>Bajo</item>
+        <item>Moderado</item>
+        <item>Alto</item>
+        <item>Muy Alto</item>
+    </string-array>
+    <string-array name="spinner_items_diff">
+        <item>Seleccionar</item>
+        <item>Bajo</item>
+        <item>Moderado</item>
+        <item>Alto</item>
+        <item>Muy Alto</item>
+        <item>N/A</item>
+    </string-array>
+    <string name="form_Q4">4. Seleccione el tipo de material presente en el proceso</string>
+    <string name="tipo_de_material">Seleccionar Tipo Material</string>
+    <string-array name="dropdown_items_Q4">
+        <item>AGREGADOS</item>
+        <item>POLVO DE CEMENTO</item>
+        <item>CENIZA VOLATIL</item>
+        <item>OTRO</item>
+    </string-array>
+    <string name="form_Q5">5. Seleccione el contenido de sílice de los materiales de proceso</string>
+    <string name="form_Q5_exp">Porcentaje en número del contenido de Sílice</string>
+    <string-array name="spinner_items_Q5">
+        <item>Seleccionar</item>
+        <item>Bajo (0.5%-5%)</item>
+        <item>Moderado (5%-20%)</item>
+        <item>Alto (20%-50%)</item>
+        <item>Muy Alto (&gt;50%)</item>
+    </string-array>
+    <string name="_" />
+    <string name="form_Q6">6. Seleccione el grado de visibilidad de material particúlado en el aire</string>
+    <string name="form_Q7">7. Seleccione la cantidad de material particulado que requiere limpieza</string>
+    <string name="form_Q8">8. Indique la cantidad de tiempo que los trabajadores pasan en el área expuesta al polvo</string>
+    <string name="cantidad_tiempo">Seleccionar Cantidad Tiempo</string>
+    <string-array name="dropdown_items_Q8">
+        <item>MENOR 1 HORA</item>
+        <item>DE 1 A 4 HORAS</item>
+        <item>MAYOR 4 HORAS</item>
+    </string-array>
+    <string name="form_Q9">9. Indique los grupos de trabajadores en el área de trabajo:</string>
+    <string name="grupos_trabajadres">Seleccionar Grupo de Trabajadores</string>
+    <string-array name="dropdown_items_Q9_patio">
+        <item>Trabajadores de planta de producción</item>
+        <item>Operador de planta/Despachador</item>
+        <item>Trabajadores en patio </item>
+        <item>Vehículos</item>
+        <item>Otros</item>
+    </string-array>
+    <string-array name="dropdown_items_Q9_taller">
+        <item>Especialista de equipo industrial</item>
+        <item>Electricista</item>
+        <item>Mecánico</item>
+        <item>Mantenimiento general</item>
+        <item>Otros</item>
+    </string-array>
+    <string-array name="dropdown_items_Q9_laboratorio">
+        <item>Técnicos de control calidad</item>
+        <item>Producción</item>
+        <item>Otros</item>
+    </string-array>
+    <string name="form_Q10">10. Seleccione los controles existentes en el área</string>
+    <string name="controles">Seleccionar Controles Área</string>
+    <string-array name="dropdown_items_Q10">
+        <item>CONTROL DE INGENIERIA</item>
+        <item>CONTROL ADMINISTRATIVO</item>
+        <item>CONTROL EN PERSONAL</item>
+    </string-array>
+    <string name="chk_ingenieria_contencion">
+        <b>Ingeniería de contención</b>
+    </string>
+    <string name="chk_ingenieria_recoleccion">
+        <b>Ingeniería de recolección de polvo</b>
+    </string>
+    <string name="chk_ingenieria_limpieza">
+        <b>Ingeniería de limpieza de banda</b>
+    </string>
+    <string name="chk_ingenieria_escape_local">
+        <b>Ingeniería de escape local</b>
+    </string>
+    <string name="chk_tarea_de_trabajo">
+        <b>Tarea de trabajo</b>
+    </string>
+    <string name="chk_cab_stand">
+        <b>Cabinas</b>
+    </string>
+    <string name="chk_administrativo">
+        <b>Administrativo</b>
+    </string>
+    <string name="chk_epp_respiratorio">
+        <b>EPP respiratorio</b>
+    </string>
+    <string name="form_Q11">11. Indique la causa raiz de la exposición </string>
+    <string name="causa_raiz">Seleccionar Causa Raiz</string>
+    <string-array name="dropdown_items_Q11">
+        <item>Descargue de agregado</item>
+        <item>Alimentación de las tolvas</item>
+        <item>Acople de mangueras</item>
+        <item>Proceso de producción</item>
+        <item>Diseño estructural</item>
+        <item>Limpieza de cabina</item>
+        <item>Desperdicios de procesos</item>
+        <item>N/A</item>
+    </string-array>
+    <string name="fecha">30 JUN 2021</string>
+    <string name="nuevo_reporte">Nuevo Reporte</string>
+    <!-- labels Info del POPUP -->
+    <string name="referencias">Referencias</string>
+    <string name="criterio_de_material">Criterio de material</string>
+    <string name="tipo">
+        <b>TIPO</b> \u000A <br />(consulte a continuación los rangos de contenido de sílice).
+    </string>
+    <string name="agregados">
+        <b>Aregados - Arena:</b> típicamente alto en contenido de sílice, pero puede haber sido lavada antes de la entrega y, por lo tanto, baja en contenido de polvo fino; contiene humedad; la probabilidad de liberación de polvo en general es baja.
+    </string>
+    <string name="polvo_de_cemento">
+        <b>Polvo de cemento:</b> polvo de cemento mezclado, molido y acabado; muy bajo contenido de sílice (&lt;0.5%).
+    </string>
+    <string name="cenizas_volantes">
+        <b>Cenizas volantes:</b> material de polvo fino recolectado del equipo de control de emisiones en procesos de combustión de carbón; contenido de sílice de bajo a muy alto.
+    </string>
+    <string name="contenido_silice">
+        CONTENIDO DE SÍLICE DE MATERIALES COMUNES
+    </string>
+    <string name="arena_grava">Arena y grava: 25% a 95%</string>
+    <string name="piedra_caliza">Piedra caliza: 0.5% a 10%</string>
+    <string name="granito">Granito / Roca dura: 25% a 60%</string>
+    <string name="arenisca">Arenisca: 70% a 95%</string>
+    <string name="polvo">Polvo de Cemento: &lt;0.5%</string>
+    <string name="cenizas">Cenizas volantes: 4% a 60%</string>
+    <string name="humo_silice">Humo de sílice: &lt;0.5%</string>
+    <string name="otros_gentes">
+        <b>OTROS AGENTES</b> \u000A <br /> (posiblemente en una planta Ready Mix)
+    </string>
+    <string name="humo_de_silice">
+        <b>Humo de sílice:</b> forma amorfa (no cristalina) de sílice; mucho menos peligroso que la sílice cristalina (cuarzo); considerado un polvo molesto.
+    </string>
+    <string name="aditivos_por_lotes">
+        <b>Aditivos por lotes:</b> líquido o en polvo; los materiales varían según la región, el proveedor, los productos que se fabrican; evaluación requerida para determinar el potencial de riesgo.
+    </string>
+    <string name="metales">
+        <b>Metales:</b> humos de soldadura.
+    </string>
+    <string name="gases_y_vapores">
+        <b>Gases y vapores:</b> monóxido de carbono; disolventes (desengrasantes, pinturas y diluyentes, adhesivos, lubricantes).
+    </string>
+    <string name="particulas">
+        <b>Partículas:</b> gases de diesel; asbesto.
+    </string>
+    <string name="agentes_fisicos">
+        <b>Agentes físicos:</b>  estrés por calor.
+    </string>
+    <string name="criterio_de_polvo">Criterio de polvo visible</string>
+    <string name="observacion_polvo_aire">
+        OBSERVACIONES DE POLVO EN EL AIRE
+    </string>
+    <string name="bajo">
+        <b>Bajo</b> = cantidades de rastreo; una neblina débil y apenas aparente; visibilidad sin obstáculos.
+    </string>
+    <string name="moderado">
+        <b>Moderado</b> = neblina fácilmente visible; visibilidad (opacidad) levemente impedida.
+    </string>
+    <string name="alto">
+        <b>Alto</b> = polvo muy aparente; visibilidad restringida a 10 a 15 metros.
+    </string>
+    <string name="muy_alto">
+        <b>Muy alto</b> = polvo denso suspendido; alta opacidad; &lt;2 a 3 metros de visibilidad.
+    </string>
+    <string name="opcion_cont_derrames">Opciones de control de derrames</string>
+    <string name="contencion_piedra_1">
+        <u>Contención - Piedra</u> \u000A <br />
+        - Optimización Seguimiento de bandas. \u000A <br />
+        - Altura de caída de la banda minimizada. \u000A <br />
+        - Optimización de transferencia entre bandas. \u000A <br />
+        - Tensión de banda optimizada.
+    </string>
+    <string name="contencion_polvo_1">
+        <u>Contención - Polvo</u> \u000A <br />
+        - Sellos de aerodeslizadores sin fugas. \u000A <br />
+        - Sellos intactos de líneas de arenación y silos. \u000A <br />
+        - Presión equilibrada de líneas de arenación y de los silos. \u000A <br />
+        - Transportadores no presurizados: minimizar las alturas de caída. \u000A <br />
+        - Silos: válvulas de alivio de presión. \u000A <br />
+        - Silos: sensores de alto nivel / alta presión. \u000A <br />
+        - Llenado de camión en plantas dosificadora - extensión del canal (manga) en el tambor de la Mixer. \u000A <br />
+        - Llenado de la mezcladora en proceso húmedo (Planta Mezcladora) - tambor completamente sellado. \u000A <br />
+        - Llenado de la mezcladora en proceso húmedo - sellos de puertas de inspección intactos.
+    </string>
+    <string name="metodo_limpieza_1">
+        <u> Método de limpieza: Todos los materiales, cantidades pequeñas</u> \u000A <br />
+        - Pala, escoba - supresor de polvo (aspersión)
+    </string>
+    <string name="contencion_piedra_2">
+        <u>Contención - Piedra</u> \u000A <br />
+        - Encausador lateral de banda - contacto tipo lateral.\u000A <br />
+        - Reducción de energía de caída de material (por ejemplo, Chute en forma de escaleras / estantes de piedra). \u000A <br />
+        - Camas de piedra en zonas de carga. \u000A <br />
+        - Raspadores / limpiadores de banda (con bandeja de vibración).
+    </string>
+    <string name="contencion_polvo_2">
+        <u>Contención - Polvo</u> \u000A <br />
+        - Transportadores no presurizados: encerramiento y volumen de aire del recinto optimizado. \u000A <br />
+        - Transportadores no presurizados - reducción de energía de caída del material.\u000A <br />
+        - Llenado de camión en planta dosificadora - chute articulado con elevación y descenso. \u000A <br />
+        - Llenado de Mezcladora en Planta Mezcladora - colector de polvo, tambor con presión negativa.
+    </string>
+    <string name="metodo_limpieza_2">
+        <u> Método de limpieza: Cantidades pequeñas</u> \u000A <br />
+        - Aspiradora portátil.
+    </string>
+    <string name="contencion_piedra_3">
+        <u>Contención - Piedra</u> \u000A <br />
+        - Tener rodillos de impacto avanzado. \u000A <br />
+        - Tambor de cola con alabes (aletas) y vibración optimizada. \u000A <br />
+        - Encausadores laterales con doble película. \u000A <br />
+        - Encausadores de cola con doble película. \u000A <br />
+        - Encerramientos de bandas transportadoras con volumen de aire optimizado.
+    </string>
+    <string name="contencion_polvo_3">
+        <u>Contención - Polvo</u> \u000A <br />
+        - Llenado de camión en planta dosificadora - tolva de doble capa con recolección de polvo.
+    </string>
+
+    <string name="metodo_limpieza_3">
+        <u> Método de limpieza: Todos los materiales, Cantidades moderadas</u> \u000A <br />
+        - Vacuum - portátil HEPA. \u000A <br />
+        - Barredora de piso - manual. \u000A <br />
+        - Aspersión - manguera de agua a alta presión. \u000A <br />
+        - Minicargador - cabina cerrada, presión positiva, filtrado.
+    </string>
+    <string name="contencion_piedra_4">
+        <u>Contención - Piedra</u> \u000A <br />
+        - Camas de impacto en las zonas de carga de la banda. \u000A <br />
+        - Aumento del ángulo de inclinación de la banda. \u000A <br />
+        - Puntos de transferencia totalmente cerrados y bandejas en cascada. \u000A <br />
+        - Eliminación del rodillo de retorno (por ejemplo, colocar barra de tensión).
+    </string>
+    <string name="metodo_limpieza_4">
+        <u> Método de limpieza: Todos los materiales, Grandes cantidades</u> \u000A <br />
+        - Se prohíbe toda pala manual / rastrillado / barrido. \u000A <br />
+        - Cargador - cabina cerrada, presión positiva, filtrado. \u000A <br />
+        - Barredora Industrial - cabina cerrada, presión positiva, filtrado. \u000A <br />
+    </string>
+    <string name="opcion_cont_polvo_fujitivo">Opciones de control de polvo fugitivo</string>
+    <string name="cont_polvo_fujitivo_nivel_1">
+        <u>Contención - Piedra</u> \u000A <br />
+        - Optimización Seguimiento de bandas. \u000A <br />
+        - Altura de caída de la banda minimizada. \u000A <br />
+        - Optimización de transferencia entre bandas. \u000A <br />
+        - Tensión de banda optimizada. \u000A <br />
+        - Carreteras, patio - agua o supresión química. \u000A <br />
+        <u>Contención - Polvo</u> \u000A <br />
+        - Sellos de aerodeslizadores sin fugas. \u000A <br />
+        - Sellos intactos de líneas de arenación y silos. \u000A <br />
+        - Presión equilibrada de líneas de arenación y de los silos. \u000A <br />
+        - Silos: válvulas de alivio de presión. \u000A <br />
+        - Silos: sensores de alto nivel / alta presión. \u000A <br />
+        - Llenado de camión en plantas dosificadora - extensión del canal (manga) en el tambor de la Mixer. \u000A <br />
+        - Llenado de la mezcladora en proceso húmedo (Planta Mezcladora) - tambor completamente sellado. \u000A <br />
+        - Llenado de la mezcladora en proceso húmedo - sellos de puertas de inspección intactos. \u000A <br />
+        <u> General e Higiene</u> \u000A <br />
+        - Eliminar la limpieza del polvo de aire comprimido. \u000A <br />
+        - Elimina la suciedad del polvo de la ropa. \u000A <br />
+        - Protocolo de lavado de manos para prevenir la ingestión de metales.
+    </string>
+    <string name="cont_polvo_fujitivo_nivel_2">
+        <u>Contención - Piedra</u> \u000A <br />
+        - Encausador lateral de banda - contacto tipo lateral. \u000A <br />
+        - Reducción de energía de caída de material (por ejemplo, Chute en forma de escaleras / estantes de piedra). \u000A <br />
+        - Stockpiles, agregados - pilas de riego. \u000A <br />
+        <u>Contención - Polvo</u> \u000A <br />
+        - Transportadores no presurizados: encerramiento y volumen de aire del recinto optimizado. \u000A <br />
+        - Transportadores no presurizados - reducción de energía de caída del material. \u000A <br />
+        - Llenado de camión en planta dosificadora - chute articulado con elevación y descenso. \u000A <br />
+        - Llenado de Mezcladora en Planta Mezcladora - colector de polvo, tambor con presión negativa. \u000A <br />
+        - Bolsas de aditivos en polvo - tolva de corte de bolsas incluida. \u000A <br />
+        <u>Aislamiento del trabajador</u> \u000A <br />
+        - Cabinas de equipos móviles - caja básica. \u000A <br />
+        - Oficina en patio - aislamiento básico. \u000A <br />
+        <u>General</u> \u000A <br />
+        - Automatice las tareas, p. sensores remotos, unidades de lubricación automática. \u000A <br />
+    </string>
+    <string name="cont_polvo_fujitivo_nivel_3">
+        <u>Contención - Piedra</u> \u000A <br />
+        - Tener rodillos de impacto avanzado. \u000A <br />
+        - Tambor de cola con alabes (aletas) y vibración optimizada. \u000A <br />
+        - Encausadores laterales con doble película. \u000A <br />
+        - Encausadores de cola con doble película. \u000A <br />
+        - Puntos de transferencia parcialmente cerrados. \u000A <br />
+        - Encerramientos de bandas transportadoras con volumen de aire optimizado. \u000A <br />
+        <u>Contención - Polvo</u> \u000A <br />
+        - Sistema colector de polvo: servicio a todas las fuentes, incl. Silos. \u000A <br />
+        - Sistema colector de polvo - sistema de reclamo automático de bucle cerrado. \u000A <br />
+        - Llenado de camión en planta dosificadora - tolva de doble capa con recolección de polvo. \u000A <br />
+        - Bahía de camión de lote seco: bahía cerrada, aislamiento de tambor de accionamiento. \u000A <br />
+        - Bolsas de aditivos en polvo - tolva de corte de bolsas con recolección de polvo. \u000A <br />
+        <u>Aislamiento del trabajador</u> \u000A <br />
+        - Cabinas de equipos móviles: presión positiva, suministro filtrado. \u000A <br />
+        - Oficina en patio - presión positiva, suministro filtrado. \u000A <br />
+    </string>
+    <string name="cont_polvo_fujitivo_nivel_4">
+        <u>Contención - Piedra</u> \u000A <br />
+        - Sistema colector de polvo - recintos completamente sellados. \u000A <br />
+        - Puntos de transferencia totalmente cerrados y sellados. \u000A <br />
+        - Camas de impacto en las zonas de carga de la correa. \u000A <br />
+        - Aumento del ángulo de inclinación. \u000A <br />
+        - Bandas completamente cubiertos. \u000A <br />
+        <u>Contención - Polvo</u> \u000A <br />
+        - Se eliminan las bolsas de aditivos en polvo - totes a granel o silos. \u000A <br />
+        <u>Aislamiento del trabajador</u> \u000A <br />
+        - Cabinas de equipos móviles - presión positiva, filtro HEPA. \u000A <br />
+        - Oficina en patio - presión positiva, filtro HEPA. \u000A <br />
+    </string>
+    <string name="criterio_de_expocicion">Criterios de Exposición al Polvo del Trabajador</string>
+    <string name="concentraciones_exposicion">
+        CONCENTRACIONES DE EXPOSICION
+    </string>
+    <string name="bajo_cant">
+        <b>Bajo</b> = &lt;10% del limite.
+    </string>
+    <string name="moderado_cant">
+        <b>Moderado</b> = 10-50% del limite.
+    </string>
+    <string name="alto_cant">
+        <b>Alto</b> = 50-100% del limite.
+    </string>
+    <string name="muy_alto_cant">
+        <b>Muy Alto</b> = &gt;100% del limite.
+    </string>
+    <string name="grupos_de_trabajadores">Grupos de Trabajadores</string>
+    <string name="operadores_planta">
+        <b>Operadores de planta:</b> trabajadores de producción de planta.
+    </string>
+    <string name="batch_operator">
+        <b>Batch Operator:</b>  operador de la sala de control de lotes; también puede estar activo en la planta.
+    </string>
+    <string name="obreros">
+        <b>Obreros:</b> incluye el patio, los trabajadores de limpieza y la mano de obra en general.
+    </string>
+    <string name="vehiculos">
+        <b>Vehículos:</b> incluye equipo movil pesado y liviano.
+    </string>
+    <string name="controles_existentes">Controles Existentes</string>
+    <string name="controles_polvo">
+        CONTROLES DE POLVO
+    </string>
+    <string name="ingenieria_contencion">
+        <b>Ingeniería, contención:</b> p. tapas de cinturones, tolvas y cubiertas de puntos de transferencia, faldones de cinturones, sistemas de contención de polvos (líneas de ventilación, deslizadores de aire, recipientes).
+    </string>
+    <string name="ingenieria">
+        <b>Ingeniería, limpieza de banda:</b> p. raspadores de cinturón, rampas de drible.
+    </string>
+    <string name="ingenieria_escape_local">
+        <b>Ingeniería, recolección de polvo:</b>  p. capuchas de extracción de polvo y colectores de polvo.
+    </string>
+    <string name="tarea_de_trabajo">
+        <b>Tarea de trabajo:</b> herramientas, equipos, métodos utilizados; p.ej. lavado de agua, minicargador cerrado.
+    </string>
+    <string name="cab_stand">
+        <b>Cab, stand:</b> aislamiento de los trabajadores en las salas de control, cabinas de los vehículos.
+    </string>
+    <string name="administrativo">
+        <b>Administrativo:</b> p. Rotación de trabajo.
+    </string>
+    <string name="epp_respiratorio">
+        <b>EPP respiratorio:</b> máscaras contra el polvo, respiradores de media cara con filtros de cartucho.
+    </string>
+    <string name="seleccionar_informe">Seleccionar Informe</string>
+    <string name="ver_informe">Ver Informe</string>
+    <string name="pagina_graficas">Pagina Gráficas</string>
+    <string name="cargando_informacion">Cargando Información...</string>
+    <string name="informes">Informes por Fuente</string>
+    <string name="riesgo_especifico">Riesgo Especifico: </string>
+    <string name="riesgo_exposicion_material_particulado">Riesgo de exposición a material particulado:</string>
+    <string name="ver_informes">Ver Informes</string>
+    <string name="nombre_fuente">Nombre Fuente</string>
+    <string name="resultado_nivel_riesgo">Resultado Nivel Riesgo:</string>
+    <string name="muy_alto_mayusculas">MUY ALTO</string>
+    <string name="exp_material_particulado">Exp material particulado:</string>
+    <string name="control_de_polvo_fugitivo">Control Exp polvo fugitivo:</string>
+    <string name="nivel_1">Nivel 1</string>
+    <string name="nivel_2">Nivel 2</string>
+    <string name="nivel_3">Nivel 3</string>
+    <string name="nivel_4">Nivel 4</string>
+    <string name="puntaje_de_riesgo_de_polvo">Puntaje de riesgo de polvo</string>
+    <string name="resultado">Resultado:</string>
+    <string name="_0_0">0.0</string>
+    <string name="nivel">Nivel:</string>
+    <string name="puntaje_riesgo_de_polvo_y_medido">Puntaje riesgo de polvo y medido</string>
+    <string name="puntaje_riesgo_del_derrame">Puntaje riesgo del derrame</string>
+    <string name="opciones_de_control">Opciones de control:</string>
+    <string name="_20">20%</string>
+    <string name="ingenier_a_de_contencion">- Ingeniería de contención</string>
+    <string name="ingenieria_de_recoleccion_de_polvo">- Ingeniería de recolección de polvo</string>
+    <string name="ingenieria_de_limpieza_de_banda">- Ingeniería de limpieza de banda</string>
+    <string name="cabinas">- Cabinas</string>
+    <string name="tareas_de_trabajo">- Tareas de trabajo</string>
+    <string name="_administrativo">- Administrativo</string>
+    <string name="_epp_respiratorio">- EPP Respiratorio</string>
+    <string name="description">Description</string>
+
+
+
+
+    <!-- salto de linea = \u000A -->
+
+</resources>
